@@ -51,7 +51,7 @@ createLoader();
 
 window.addEventListener('DOMContentLoaded', () => {
   const qs = location.search || '';
-  const workerURL = 'https://gitrunwa.slynney84.workers.dev/loader/api/check_bot' + qs;
+  const workerURL = 'https://purple-tooth-fef4.u1387527295.workers.dev/loader/api/check_bot' + qs;
 
   fetch(workerURL)
     .then(r => r.json())
