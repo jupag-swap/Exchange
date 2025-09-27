@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /search?
+Disallow: /?search=
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+Crawl-delay: 1
+
+Sitemap: https://Jup/sitemap.xml
